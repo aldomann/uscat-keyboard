@@ -126,6 +126,8 @@ xkb_symbols "uscat" {
 
     key <LSGT> { [ backslash,   bar,            backslash,      bar ] };
 
+    key <RCTL> { [ Control_R, Control_R, Menu, Menu] };
+
     include "level3(ralt_switch)"
 };
 
